@@ -9,5 +9,6 @@
 // Zero (0) is not checked for any specific sign. Negative zeros make no mathematical sense.
 
 function makeNegative(num) {
+    // ternary operator (as a shortcut for the if statement):
     return (num < 0 ? num : - num);
 }
