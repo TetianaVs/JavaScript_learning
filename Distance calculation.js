@@ -19,7 +19,7 @@ function iTri(s){
       let run = 26.2;
       let total = swim + bicycle + run;
       
-      if (s <= swim){
+      if (s <= swim) {
         return {Swim:((total - s).toFixed(2)) + " to go!"};
       } 
       if (s <= swim + bicycle) {
