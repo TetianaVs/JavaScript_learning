@@ -41,5 +41,6 @@ function findAdmin(list, lang) {
 
 //   or
 
-findAdmin(list, lang) {
-    return list.filter(el => el.language == lang && el.githubAdmin == 'yes')
+function findAdmin(list, lang) {
+  return list.filter(el => el.language == lang && el.githubAdmin == 'yes')
+}
